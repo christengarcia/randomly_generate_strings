@@ -16,4 +16,15 @@ namespace randomly_generate_strings
             return path;
         }
     }
+
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine(Random.GetRandomString());
+            Console.WriteLine(Random.GetRandomString());
+            Console.WriteLine(Random.GetRandomString());
+            Console.Read();
+        }
+    }
 }
